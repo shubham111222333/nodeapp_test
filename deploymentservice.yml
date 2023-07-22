@@ -20,7 +20,7 @@ spec:
         ports:
         - containerPort: 3000
       nodeSelector:
-          worker
+          kubernetes.io/hostname: node
          
         
         
