@@ -19,8 +19,7 @@ spec:
         image: shubham111222/nodeapp:latest
         ports:
         - containerPort: 3000
-      nodeSelector:
-          kubernetes.io/hostname: node
+    
          
         
         
